@@ -1,9 +1,9 @@
 // 1. Basic Types
-let num: number = 10;
-let str: string = "hello";
+let num: number = 4;
+let str: string = "Namaste";
 let bool: boolean = true;
 let numArray: number[] = [1, 2, 3, 4, 5];
-let tuple: [string, number] = ["apple", 10];
+let tuple: [string, number] = ["goa", 40];
 
 enum DaysOfWeek {
   Monday,
@@ -32,9 +32,9 @@ interface Person {
 }
 
 const user: Person = {
-  name: "John Doe",
-  age: 30,
-  email: "john@example.com"
+  name: "Ram",
+  age: 24,
+  email: "ram@gmail.com"
 };
 
 // 4. Classes
@@ -61,6 +61,6 @@ console.log("DaysOfWeek:", DaysOfWeek);
 console.log("add(5, 10):", add(5, 10));
 console.log("capitalize('world'):", capitalize("world"));
 console.log("user:", user);
-const myCar = new Car("Toyota", "Camry", 2020);
+const myCar = new Car("Toyota", "Supra", 2010);
 myCar.displayInfo();
 console.log("reverseArray([1, 2, 3, 4, 5]):", reverseArray([1, 2, 3, 4, 5]));
